@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CleanBridge.Abstraction\CleanBridge.Abstraction.csproj" />
     <ProjectReference Include="..\CleanBridge.Access.Domain\CleanBridge.Access.Domain.csproj" />
     <ProjectReference Include="..\CleanBridge.Access.Infrastructure\CleanBridge.Access.Infrastructure.csproj" />
     <ProjectReference Include="..\CleanBridge.Access.Services\CleanBridge.Access.Services.csproj" />

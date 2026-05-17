@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CleanBridge.Abstraction\CleanBridge.Abstraction.csproj" />
     <ProjectReference Include="..\CleanBridge.Access.Domain\CleanBridge.Access.Domain.csproj" />
   </ItemGroup>
 

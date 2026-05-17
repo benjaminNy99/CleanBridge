@@ -10,6 +10,9 @@
     <Project Path="CleanBridge.Access.Infrastructure/CleanBridge.Access.Infrastructure.csproj" Id="ce5c66c8-0093-48b9-837b-b6b669173514" />
     <Project Path="CleanBridge.Business.Infrastructure/CleanBridge.Business.Infrastructure.csproj" Id="eb128c7b-9234-444c-89d4-b491e83e7f93" />
   </Folder>
+  <Folder Name="/Libraries/">
+    <Project Path="CleanBridge.Abstraction/CleanBridge.Abstraction.csproj" Id="a95694a7-a8b8-4866-b16c-04018372b86e" />
+  </Folder>
   <Folder Name="/Reports/" />
   <Folder Name="/Services/">
     <Project Path="CleanBridge.Access.Services/CleanBridge.Access.Services.csproj" Id="7ee282f8-6f93-4b99-b246-941f6d4a9f44" />
