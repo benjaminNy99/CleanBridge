@@ -11,6 +11,7 @@ namespace CleanBridge.Access.Domain.Entities
         public bool IsAdmin { get; private set; }
         public bool Blocked { get; private set; }
         public string? Email { get; private set; }
+        public string Password { get; private set; } = null!;
         public DateTime? LastConnection { get; private set; }
         public DateTime CreationDate { get; private set; }
 
@@ -20,7 +21,7 @@ namespace CleanBridge.Access.Domain.Entities
         {
         }
 
-        public User(string? email, bool isAdmin)
+        public User(string? email, bool isAdmin, string password)
         {
             ValidateEmail(email);
 
@@ -28,6 +29,7 @@ namespace CleanBridge.Access.Domain.Entities
             IsAdmin = isAdmin;
             Blocked = false;
             Email = email?.Trim();
+            Password = password;
             CreationDate = DateTime.UtcNow;
         }
 
