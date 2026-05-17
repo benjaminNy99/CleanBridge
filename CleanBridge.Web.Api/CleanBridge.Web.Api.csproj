@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanBridge.Access.Domain\CleanBridge.Access.Domain.csproj" />
+    <ProjectReference Include="..\CleanBridge.Access.Infrastructure\CleanBridge.Access.Infrastructure.csproj" />
+    <ProjectReference Include="..\CleanBridge.Access.Services\CleanBridge.Access.Services.csproj" />
+    <ProjectReference Include="..\CleanBridge.Business.Domain\CleanBridge.Business.Domain.csproj" />
+    <ProjectReference Include="..\CleanBridge.Business.Infrastructure\CleanBridge.Business.Infrastructure.csproj" />
+    <ProjectReference Include="..\CleanBridge.Business.Services\CleanBridge.Business.Services.csproj" />
+  </ItemGroup>
+
+</Project>

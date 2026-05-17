@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/Clients/">
+    <Project Path="CleanBridge.Web.Api/CleanBridge.Web.Api.csproj" />
+  </Folder>
+  <Folder Name="/Domain/">
+    <Project Path="CleanBridge.Access.Domain/CleanBridge.Access.Domain.csproj" />
+    <Project Path="CleanBridge.Business.Domain/CleanBridge.Business.Domain.csproj" Id="55b72fa2-8960-4510-b33e-ca43f26595b7" />
+  </Folder>
+  <Folder Name="/Infrastructure/">
+    <Project Path="CleanBridge.Access.Infrastructure/CleanBridge.Access.Infrastructure.csproj" Id="ce5c66c8-0093-48b9-837b-b6b669173514" />
+    <Project Path="CleanBridge.Business.Infrastructure/CleanBridge.Business.Infrastructure.csproj" Id="eb128c7b-9234-444c-89d4-b491e83e7f93" />
+  </Folder>
+  <Folder Name="/Reports/" />
+  <Folder Name="/Services/">
+    <Project Path="CleanBridge.Access.Services/CleanBridge.Access.Services.csproj" Id="7ee282f8-6f93-4b99-b246-941f6d4a9f44" />
+    <Project Path="CleanBridge.Business.Services/CleanBridge.Business.Services.csproj" Id="bc5086d9-3d1e-4e49-9f0e-a9dcc0ca01f6" />
+  </Folder>
+</Solution>
