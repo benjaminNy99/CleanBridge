@@ -12,4 +12,8 @@
     <ProjectReference Include="..\CleanBridge.Business.Infrastructure\CleanBridge.Business.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DTO\" />
+  </ItemGroup>
+
 </Project>

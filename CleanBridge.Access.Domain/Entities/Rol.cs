@@ -9,7 +9,7 @@ namespace CleanBridge.Access.Domain.Entities
         private readonly List<RolMenuAction> _rolMenuActions = new();
 
         public Guid RolId { get; private set; }
-        public string RolName { get; private set; } = null!;
+        public string Name { get; private set; } = null!;
 
         public IReadOnlyCollection<RolApiAction> RolApiActions => _rolApiActions.AsReadOnly();
         public IReadOnlyCollection<RolMenuAction> RolMenuActions => _rolMenuActions.AsReadOnly();
@@ -23,7 +23,7 @@ namespace CleanBridge.Access.Domain.Entities
             ValidateRolName(rolName);
 
             RolId = Guid.NewGuid();
-            RolName = rolName.Trim();
+            Name = rolName.Trim();
         }
 
         public void Update(RolUpdateData data)
@@ -31,7 +31,7 @@ namespace CleanBridge.Access.Domain.Entities
             if (data.RolName.HasValue)
             {
                 ValidateRolName(data.RolName.Value);
-                RolName = data.RolName.Value!.Trim();
+                Name = data.RolName.Value!.Trim();
             }
         }
 
